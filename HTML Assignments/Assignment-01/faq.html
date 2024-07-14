@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ Page</title>
+  </head>
+  <body>
+    <h1 id="top">Frequently Asked Questions ( FAQ )</h1>
+    <ul>
+      <li>
+        <a href="#header">What is Header?</a>
+      </li>
+      <li>
+        <a href="#nav">What is Navigation?</a>
+      </li>
+      <li>
+        <a href="#section">What is Section?</a>
+      </li>
+      <li>
+        <a href="#aside">What is Aside?</a>
+      </li>
+      <li>
+        <a href="#article">what is Article?</a>
+      </li>
+      <li>
+        <a href="#footer">What is Footer?</a>
+      </li>
+      <li>
+        <a href="#form">What is Form?</a>
+      </li>
+      <li>
+        <a href="#iframe">What is Frame?</a>
+      </li>
+    </ul>
+    <h2 id="header">Header Tag</h2>
+    <p>
+      The &lt; header &gt; HTML element represents introductory content,
+      typically a group of introductory or navigational aids. It may contain
+      some heading elements but also a logo, a search form, an author name, and
+      other elements.
+    </p>
+    <pre>
+        &lt;header&gt;
+            &lt;a class="logo" href="#"&gt;Cute Puppies Express!&lt;/a&gt;
+        &lt;/header&gt;
+    </pre>
+    <h2 id="nav">The Navigation Section element</h2>
+    <p>
+      The &lt; nav &gt; HTML element represents a section of a page whose
+      purpose is to provide navigation links, either within the current document
+      or to other documents. Common examples of navigation sections are menus,
+      tables of contents, and indexes.
+    </p>
+    <pre>
+        &lt;nav class="crumbs"&gt;
+            &lt;ol&gt;
+              &lt;li class="crumb"&gt;&lt;a href="#"&gt;Bikes&lt;/a&gt;&lt;/li&gt;
+              &lt;li class="crumb"&gt;&lt;a href="#"&gt;BMX&lt;/a>&lt;/li&gt;
+              &lt;li class="crumb"&gt;&lt;Jump Bike 3000&lt;/a&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/nav&gt;
+    </pre>
+    <h2 id="section">The Generic Section element</h2>
+    <p>
+      The &lt; section &gt; HTML element represents a generic standalone section
+      of a document, which doesn't have a more specific semantic element to
+      represent it. Sections should always have a heading, with very few
+      exceptions.
+    </p>
+    <pre>
+        &lt;section&gt;
+            &lt;h2&gt;Introduction&lt;/h2&gt;
+            &lt;p&gt;This document provides a guide to help with the important task of choosing the correct Apple.&lt;/p&gt;
+        &lt;/section&gt;
+    </pre>
+    <h2 id="aside">The Aside element</h2>
+    <p>
+      The &lt; aside &gt; HTML element represents a portion of a document whose
+      content is only indirectly related to the document's main content. Asides
+      are frequently presented as sidebars or call-out boxes.
+    </p>
+    <pre>
+        &lt;p&gt;
+            Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in both larval
+            and adult forms.
+        &lt;/p&gt;
+          
+          &lt;aside&gt;
+            &lt;p&gt;The Rough-skinned Newt defends itself with a deadly neurotoxin.&lt;/p&gt;
+          &lt;/aside&gt;
+          
+          &lt;p&gt;
+            Several species of salamander inhabit the temperate rainforest of the Pacific Northwest, including the Ensatina, the
+            Northwestern Salamander and the Rough-skinned Newt. Most salamanders are nocturnal, and hunt for insects, worms and
+            other small creatures.
+        &lt;/p&gt;
+    </pre>
+    <h2 id="article">The Article Contents element</h2>
+    <p>
+      The &lt; article &gt; HTML element represents a self-contained composition
+      in a document, page, application, or site, which is intended to be
+      independently distributable or reusable (e.g., in syndication). Examples
+      include: a forum post, a magazine or newspaper article, or a blog entry, a
+      product card, a user-submitted comment, an interactive widget or gadget,
+      or any other independent item of content.
+    </p>
+    <pre>
+        &lt;article class="forecast"&gt;
 
+            &lt;h1&gt;Weather forecast for Seattle&lt;/h1&gt;
+            &lt;article class="day-forecast"&gt;
+              &lt;h2&gt;03 March 2018&lt;/h2&gt;
+              &lt;p&gt;Rain.&lt;/p&gt;
+            &lt;/article&gt;
+            &lt;article class="day-forecast"&gt;
+              &lt;h2&gt;04 March 2018&lt;/h2&gt;
+              &lt;p&gt;Periods of rain.&lt;/p&gt;
+            &lt;/article&gt;
+            &lt;article class="day-forecast"&gt;
+              &lt;h2&gt;05 March 2018&lt;/h2&gt;
+              &lt;p&gt;Heavy rain.&lt;/p&gt;
+            &lt;/article&gt;
+
+        &lt;/article&gt;
+    </pre>
+    <h2 id="footer">The Footer element</h2>
+    <p>
+      The &lt; footer &gt; HTML element represents a footer for its nearest
+      ancestor sectioning content or sectioning root element. A &lt; footer &gt;
+      typically contains information about the author of the section, copyright
+      data or links to related documents.
+    </p>
+    <pre>
+        &lt;article&gt;
+            &lt;h1&gt;How to be a wizard&lt;/h1&gt;
+            &lt;ol&gt;
+              &lt;li&gt;Grow a long, majestic beard.&lt;/li&gt;
+              &lt;li&gt;Wear a tall, pointed hat.&lt;/li&gt;
+              &lt;li&gt;Have I mentioned the beard?&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;footer&gt;
+              &lt;p&gt;© 2018 Gandalf&lt;/p&gt;
+            &lt;/footer&gt;
+        &lt;/article&gt;
+    </pre>
+    <h2 id="form">The Form element</h2>
+    <p>
+      The &lt; form &gt; HTML element represents a document section containing
+      interactive controls for submitting information.
+    </p>
+    <pre>
+        &lt;form action="" method="get" class="form-example"&gt;
+            &lt;div class="form-example"&gt;
+              &lt;label for="name"&gt;Enter your name: &lt;/label&gt;
+              &lt;input type="text" name="name" id="name" required /&gt;
+            &lt;/div&gt;
+            &lt;div class="form-example"&gt;
+              &lt;label for="email"&gt;Enter your email: &lt;/label&gt;
+              &lt;input type="email" name="email" id="email" required /&gt;
+            &lt;/div&gt;
+            &lt;div class="form-example"&gt;
+              &lt;input type="submit" value="Subscribe!" /&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    </pre>
+    <h2 id="iframe">The Inline Frame element</h2>
+    <p>
+      The &lt; iframe &gt; HTML element represents a nested browsing context,
+      embedding another HTML page into the current one.
+    </p>
+    <pre>
+        &lt;iframe
+            id="inlineFrameExample"
+            title="Inline Frame Example"
+            width="300"
+            height="200"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"&gt;
+        &lt;/iframe&gt;
+    </pre>
+    <a href="#top">Go to Top</a>
+  </body>
+</html>
