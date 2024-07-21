@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .drop {
+        display: inline-block;
+      }
+      .content {
+        display: none;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .drop:hover .content {
+        display: block;
+      }
+
+      .desc {
+        padding: 8px 16px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dropdown Image</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam nisi
+      earum beatae id quisquam.
+    </p>
+    <div class="drop">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDo890dsxpB5UCLQFdVBWmK4qVxTrsrLEEUg&s"
+        alt=""
+        width="100px"
+        height="50px"
+      />
+      <div class="content">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDo890dsxpB5UCLQFdVBWmK4qVxTrsrLEEUg&s"
+          alt=""
+          width="300px"
+          height="200px"
+        />
+        <p class="desc">Beautiful Bird</p>
+      </div>
+    </div>
+  </body>
+</html>
