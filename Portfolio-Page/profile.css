@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #121010, #53514c);
+}
+
+#header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+#nav-bar li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 100;
+  color: #fff;
+  padding: 8px 16px;
+}
+
+#nav-bar {
+  margin-right: 50px;
+}
+
+#nav-bar li {
+  margin: 0 5px;
+}
+
+#header h2 {
+  font-family: "Anurati";
+  text-transform: uppercase;
+}
+
+#header h2 a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 50px;
+  padding: 8px 16px;
+}
+
+#header a:hover {
+  background-color: #fff;
+  border-radius: 15px;
+  color: #000;
+}
+
+#main1 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+
+#left-div {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+#content {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+#content h2 {
+  font-weight: 100;
+  margin: 10px 0;
+  font-family: "Gilroy";
+}
+
+#content h1 {
+  font-size: 50px;
+}
+
+#content button {
+  padding: 8px 18px;
+  font-size: 14px;
+  margin-top: 10px;
+  background-color: #059212;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#content button:hover {
+  background-color: #0f6117;
+  color: aliceblue;
+}
+
+#information {
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#email h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+#email p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+#email {
+  border-right: 2px solid #fff;
+  margin-right: 15px;
+  padding: 0 15px;
+}
+
+#phone h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+#phone p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+#phone {
+  border-right: 2px solid #fff;
+  margin-right: 15px;
+  padding: 0 15px;
+}
+
+#location h2 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+#location p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+#location {
+  padding: 0 15px;
+}
+
+#right-div {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+#right-div img {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+#main2 {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  display: flex;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#image img {
+  width: 500px;
+  height: 500px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+#image-content {
+  width: 400px;
+  margin-top: 10%;
+  margin-left: 8%;
+}
+
+#image-content h3 {
+  color: #059212;
+  margin-bottom: 10px;
+}
+
+#image-content h2 {
+  margin-bottom: 10px;
+}
+
+#image-content p {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+#name-address-info {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+#name-info p strong {
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+#name-info button {
+  padding: 8px 18px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #fff;
+  background-color: #059212;
+  border: none;
+  cursor: pointer;
+}
+
+#name-info button:hover {
+  background-color: #0f6117;
+  color: aliceblue;
+}
+
+#address-info p strong {
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.services {
+  margin: 100px 250px;
+  color: #fff;
+}
+
+#flexbox {
+  display: flex;
+}
+
+.services h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.services-content {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.45);
+  box-shadow: 6px 6px 6x rgba(0, 0, 0, 0.25),
+    -6px -6px 6px rgba(255, 255, 255, 0.25);
+  padding: 12px;
+  position: relative;
+  margin: 10px;
+}
+
+.design img {
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+.design h3 {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+.design p {
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.design button {
+  padding: 6px 12px;
+  font-size: 10px;
+  color: #fff;
+  background-color: #059212;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+  left: 100px;
+}
+
+.design button:hover {
+  background-color: #0f6117;
+  color: aliceblue;
+}
