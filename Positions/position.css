@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#left {
+  width: 50%;
+  height: 100vh;
+  /* background-color: red; */
+  background-image: url("./Images/apple-products-black.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#overlay1 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+#center1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+#center1 h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#center1 p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#center1 button {
+  color: #fff;
+  background-color: transparent;
+  padding: 10px 60px;
+  border: 1px solid #fff;
+  font-size: 12px;
+}
+
+#center1 button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#right {
+  width: 50%;
+  height: 100vh;
+  /* background-color: blue; */
+  background-image: url("./Images/apple-products.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#overlay2 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+
+#center2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  text-align: center;
+}
+
+#center2 h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#center2 p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#center2 button {
+  color: #000;
+  background-color: transparent;
+  padding: 10px 60px;
+  border: 1px solid #000;
+  font-size: 12px;
+}
+
+#center2 button:hover {
+  background-color: #000;
+  color: #fff;
+}
