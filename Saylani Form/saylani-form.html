@@ -1,1 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saylani Welfare Form</title>
+    <link rel="stylesheet" href="saylani-form.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Registration Form - SMIT</h1>
+      <p>Service - Education - Registration</p>
+    </header>
+    <main>
+      <form action="" method="GET">
+        <section class="main">
+          <section class="first-section">
+            <ul>
+              <li>
+                <label for="city">Select City</label>
+                <select name="city" id="city">
+                  <option value="">Select City</option>
+                  <option value="Peshawar">Peshawar</option>
+                  <option value="Islamabad">Islamabad</option>
+                  <option value="Lahore">Lahore</option>
+                </select>
+              </li>
+              <li>
+                <label for="campus">Select Campus</label>
+                <select name="campus" id="campus">
+                  <option value="">Select Campus</option>
+                  <option value="Peshawar">Peshawar Campus</option>
+                  <option value="Islamabad">Islamabad Campus</option>
+                  <option value="Other">Other</option>
+                </select>
+              </li>
+              <li>
+                <label for="full-name">Full Name</label>
+                <input
+                  type="text"
+                  name="full-name"
+                  id="full-name"
+                  placeholder="Full Name"
+                />
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+              </li>
+              <li>
+                <label for="CNIC">CNIC</label>
+                <input type="number" name="CNIC" id="CNIC" placeholder="CNIC" />
+              </li>
+              <li>
+                <label for="date-of-bith">Date of Birth</label>
+                <input type="date" name="date-of-bith" id="date-of-bith" />
+              </li>
+            </ul>
+          </section>
+          <section class="second-section">
+            <ul>
+              <li>
+                <label for="course-or-event">Select course or event</label>
+                <select name="course-or-event" id="course-or-event">
+                  <option value="">Select course or event</option>
+                  <option value="web-development">Web Development</option>
+                  <option value="flutter">Flutter</option>
+                  <option value="e-commerce">Ecommerce</option>
+                  <option value="others">Others</option>
+                </select>
+              </li>
+              <li>
+                <label for="class-preference">Select class preference</label>
+                <select name="class-preference" id="class-preference">
+                  <option value="">Select class preference</option>
+                  <option value="weekdays">Weekdays (Monday to Friday)</option>
+                  <option value="weekend">Weekend (Saturday and Sunday)</option>
+                  <option value="both">Both</option>
+                </select>
+              </li>
+              <li>
+                <label for="father-name">Father Name</label>
+                <input
+                  type="text"
+                  name="father-name"
+                  id="father-name"
+                  placeholder="Father Name"
+                />
+              </li>
+              <li>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="Phone" />
+              </li>
+              <li>
+                <label for="father-CNIC">Father's CNIC (optional)</label>
+                <input
+                  type="number"
+                  name="father-CNIC"
+                  id="father-CNIC"
+                  placeholder="Father CNIC (optional)"
+                />
+              </li>
+              <li>
+                <label for="gender">Select gender</label>
+                <select name="gender" id="gender">
+                  <option value="">Select gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </li>
+            </ul>
+          </section>
+        </section>
 
+        <section class="third-section">
+          <ul>
+            <li>
+              <label for="address">Address</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Address"
+              />
+            </li>
+            <li>
+              <label for="last-qualification">Last qualification</label>
+              <select name="last-qualification" id="last-qualification">
+                <option value="">Last qualification</option>
+                <option value="metric">Matric</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="ungraduate">Ungraduate</option>
+                <option value="graduate">Graduate</option>
+                <option value="masters">Masters</option>
+                <option value="phd">PHD</option>
+                <option value="other">Other</option>
+              </select>
+            </li>
+            <li>
+              <label for="laptop">Do you have a Laptop?</label>
+              <select name="laptop" id="laptop">
+                <option value="">Do you have a Laptop?</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </li>
+          </ul>
+        </section>
+        <section class="fourth-section">
+          <div class="picture">
+            <label for="picture">Pictue</label>
+            <input type="file" name="picture" id="picture" />
+          </div>
+          <div class="content">
+            <p>With white or blue background</p>
+            <p>File size must be less than 1MB</p>
+            <p>File type: jpg, jpeg, png</p>
+            <p>Upload your recent passport size picture</p>
+            <p>Your Face should be clearly visible without any Glasses</p>
+          </div>
+        </section>
+        <hr />
+        <section class="fifth-section">
+          <ol>
+            <li>
+              I hereby, solemnly declare that the data and facts mentioned
+              herein are true and correct to the best of my knowledge. Further,
+              I will abide by all the established and future regulations and
+              policies of SWIT
+            </li>
+            <li>
+              I hereby accept the responsibilities of good conduct and guarantee
+              that I will not be involved in any other activity, political or
+              ethical, but learning during my stay in the program.
+            </li>
+            <li>
+              Defiance will render my admission canceled at any point in time.
+            </li>
+            <li>
+              Upon completion, of the course, I will complete the required
+              project by SWIT.
+            </li>
+            <li>
+              It's mandatory for female students to wear abaya/hijab in the
+              class
+            </li>
+          </ol>
+        </section>
+        <section>
+            <button>
+                Submit
+            </button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
