@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      body {
+        background-image: url("./Images/laptop1.jpg");
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+      }
 
+      form h1 {
+        text-align: center;
+        padding: 0.5rem;
+      }
+
+      form {
+        width: 25rem;
+        margin: 4rem auto;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+        border-radius: 6px;
+        color: rgb(221, 217, 217);
+      }
+
+      input {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        font: inherit;
+        transition: padding 1s ease-out;
+      }
+
+      input:focus {
+        padding: 1rem 2rem;
+        background-color: rgb(158, 152, 152);
+        font-size: 1.25rem;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      .center {
+        text-align: center;
+      }
+      button {
+        padding: 0.5rem 1.5rem;
+        font: inherit;
+        margin: 1.5rem 0;
+        border-radius: 4px;
+        border: none;
+      }
+
+      button:hover {
+        background-color: rgb(56, 52, 52);
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h1>Registration Form</h1>
+      <label for="fullname">Full Name:</label>
+      <input
+        type="text"
+        name="fullname"
+        id="fullname"
+        placeholder="Full Name"
+        required
+      />
+      <label for="username">User Name:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="User Name"
+        required
+      />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Email" />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+        required
+        minlength="8"
+      />
+      <div class="center">
+        <button type="submit">Registration</button>
+      </div>
+    </form>
+  </body>
+</html>
