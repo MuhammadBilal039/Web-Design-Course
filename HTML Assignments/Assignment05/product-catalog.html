@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Catalog</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #636060;
+      }
+      #container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        background-color: #fff;
+      }
+
+      #container h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      .product {
+        display: flex;
+        align-items: center;
+        padding: 1.25rem 0.5rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin-bottom: 0.5rem;
+      }
+
+      .product a {
+        text-decoration: none;
+      }
+
+      .product a h2:hover {
+        color: #e60000;
+      }
+
+      .product img {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      }
+
+      .product-info h2 {
+        font-size: 2rem;
+        margin: 0 0 10px;
+        color: #333;
+      }
+
+      .product-info p {
+        font-size: 1.2rem;
+        margin: 0 0 10px;
+        color: #333;
+        /* letter-spacing: 0.2px; */
+      }
+
+      p.price {
+        font-size: 1.25rem;
+        color: #e60000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Product Catalog</h1>
+      <div class="product">
+        <img src="./Images/apple-iphone-14.jpg" alt="apple-iphone-14" />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/apple_iphone_14-price-11861.php"
+            target="_blank"
+          >
+            <h2>Apple iPhone 14</h2>
+          </a>
+          <p>
+            Released 2022, September 16 172g, 7.8mm thickness iOS 16, up to iOS
+            17.5.1 128GB/256GB/512GB storage, no card slot.
+          </p>
+          <p class="price">$477.11</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="./Images/apple-watch-ultra2.jpg" alt="apple-watch-ultra2" />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/apple_watch_ultra_2-price-12560.php"
+            target="_blank"
+          >
+            <h2>Apple Watch Ultra 2</h2>
+          </a>
+          <p>
+            Released 2023, September 22 61.4g, 14.4mm thickness watchOS 10, up
+            to watchOS 10.5 64GB storage, no card slot.
+          </p>
+          <p class="price">$878.99</p>
+        </div>
+      </div>
+      <div class="product">
+        <img
+          src="./Images/samsung-galaxy-z-fold6.jpg"
+          alt="samsung-galaxy-z-fold6"
+        />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/samsung_galaxy_z_fold6-13147.php"
+            target="_blank"
+          >
+            <h2>Samsung Galaxy Z Fold6</h2>
+          </a>
+          <p>
+            Released 2024, July 24 239g, 5.6mm thickness Android 14, One UI
+            6.1.1 256GB/512GB/1TB storage, no card slot.
+          </p>
+          <p class="price">$1899.99</p>
+        </div>
+      </div>
+      <div class="product">
+        <img
+          src="./Images/samsung-galaxy-watch-ultra.jpg"
+          alt="samsung-galaxy-watch-ultra"
+        />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/samsung_galaxy_watch_ultra-price-13127.php"
+            target="_blank"
+          >
+            <h2>Samsung Galaxy Watch Ultra</h2>
+          </a>
+          <p>
+            Released 2024, July 24 60.5g, 12.1mm thickness Android Wear OS 5,
+            One UI Watch 6 32GB storage, no card slot.
+          </p>
+          <p class="price">$649.99</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="./Images/xiaomi-poco-m6-plus.jpg" alt="xiaomi-poco-m6-plus" />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/xiaomi_poco_m6_plus-13119.php"
+            target="_blank"
+          >
+            <h2>Xiaomi Poco M6 Plus</h2>
+          </a>
+          <p>
+            Released 2024, August 5 205g, 8.3mm thickness Android 14, HyperOS,
+            up to 2 major upgrades 128GB storage, microSDXC.
+          </p>
+          <p class="price">$570.11</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="./Images/infinix-gt20-pro.jpg" alt="infinix-gt20-pro" />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/infinix_gt_20_pro-price-12962.php"
+            target="_blank"
+          >
+            <h2>Infinix GT 20 Pro</h2>
+          </a>
+          <p>
+            Released 2024, April 26 194g, 8.2mm thickness Android 14, XOS 14
+            256GB storage, Unspecified.
+          </p>
+          <p class="price">$23680</p>
+        </div>
+      </div>
+      <div class="product">
+        <img
+          src="./Images/google-pixel7-pro-new.jpg"
+          alt="google-pixel7-pro-new"
+        />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/google_pixel_7_pro-price-11908.php"
+            target="_blank"
+          >
+            <h2>Google Pixel 7 Pro</h2>
+          </a>
+          <p>
+            Released 2022, October 13 212g, 8.9mm thickness Android 13, up to
+            Android 14 128GB/256GB/512GB storage, no card slot.
+          </p>
+          <p class="price">$303.94</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="./Images/tecno-pova-6-pro-11.jpg" alt="tecno-pova-6-pro-11" />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/tecno_pova_6_pro-12830.php"
+            target="_blank"
+          >
+            <h2>Tecno Pova 6 Pro</h2>
+          </a>
+          <p>
+            Released 2024, April 4 198g, 7.9mm thickness Android 14, HIOS 14
+            256GB storage, microSDXC.
+          </p>
+          <p class="price">$395.50</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="./Images/oppo-a3-pro-india.jpg" alt="oppo-a3-pro-india" />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/oppo_a3_pro-13160.php"
+            target="_blank"
+          >
+            <h2>Oppo A3 Pro</h2>
+          </a>
+          <p>
+            Released 2024, June 21 186g, 7.7mm thickness Android 14, ColorOS 14
+            128GB/256GB storage, microSDXC.
+          </p>
+          <p class="price">$495.00</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="./Images/realme-narzo-n61.jpg" alt="realme-narzo-n61" />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/realme_narzo_n61-13232.php"
+            target="_blank"
+          >
+            <h2>Realme Narzo N61</h2>
+          </a>
+          <p>
+            Exp. release 2024, August 06 187g, 7.8mm thickness Android 14,
+            Realme UI 5.0 64GB/128GB storage, microSDXC.
+          </p>
+          <p class="price">$500.00</p>
+        </div>
+      </div>
+      <div class="product">
+        <img
+          src="./Images/lenovo-tab-k-11-plus.jpg"
+          alt="lenovo-tab-k-11-plus"
+        />
+        <div class="product-info">
+          <a
+            href="https://www.gsmarena.com/lenovo_tab_k11_plus-13186.php"
+            target="_blank"
+          >
+            <h2>Lenovo Tab K11 Plus</h2>
+          </a>
+          <p>
+            Released 2024, July 520g, 7.2mm thickness Android 14
+            64GB/128GB/256GB storage, microSDXC.
+          </p>
+          <p class="price">$650.10</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
