@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Booking Form</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background: linear-gradient(45deg, #020024, #090979, #00d4ff);
+      }
+      form {
+        width: 25rem;
+        margin: 4rem auto;
+        background-color: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+        padding: 3rem;
+        border-radius: 6px;
+      }
+
+      form h1 {
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 2rem;
+      }
+
+      input,
+      textarea,
+      select {
+        display: block;
+        width: 100%;
+        font: inherit;
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+        margin-bottom: 1rem;
+        color: rgb(51, 49, 49);
+        background-color: rgb(190, 186, 186);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font: inherit;
+        color: #fff;
+      }
+
+      button {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.2rem;
+        background-color: rgb(59, 53, 53);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        margin: 1.5rem 0;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: rgb(104, 99, 99);
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/" method="post">
+      <h1>Travel Booking Form</h1>
+      <label for="full-name">Full Name</label>
+      <input
+        type="text"
+        name="full-name"
+        id="full-name"
+        placeholder="Full Name"
+      />
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email" placeholder="Email" />
+      <label for="phone-number">Phone Number</label>
+      <input
+        type="tel"
+        name="phone-number"
+        id="phone-number"
+        placeholder="Phone Number"
+      />
+      <label for="destination">Destination</label>
+      <select name="destination" id="destination">
+        <option value="">Select Destination</option>
+        <option value="islamabad">Islamabad</option>
+        <option value="lahore">Lahore</option>
+        <option value="peshawar">Peshawar</option>
+      </select>
+      <label for="departure-date">Departure Date</label>
+      <input
+        type="date"
+        name="departure-date"
+        id="departure-date"
+        placeholder="Departure Date"
+      />
+      <label for="return-date">Return Date</label>
+      <input
+        type="date"
+        name="return-date"
+        id="return-date"
+        placeholder="Return Date"
+      />
+      <label for="number-of-travels">Number of Travels</label>
+      <input
+        type="number"
+        name="number-of-travels"
+        id="number-of-travels"
+        placeholder="Number of Travels"
+      />
+      <label for="class">Class</label>
+      <select name="class" id="class">
+        <option value="">Select Class</option>
+        <option value="economic">Econnomic</option>
+        <option value="business">Business</option>
+        <option value="first-class">First Class</option>
+      </select>
+      <label for="request">Special Request</label>
+      <textarea name="request" id="request" rows="5"></textarea>
+      <button>Book Now</button>
+    </form>
+  </body>
+</html>
