@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  background-color: rgb(41, 41, 41);
+  padding: 30px 0;
+  width: 100%;
+  height: 20%;
+}
+
+.header h1 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header h1::first-letter {
+  color: #e74d43;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.main {
+  display: flex;
+}
+
+.side-bar {
+  width: 20%;
+  height: 70vh;
+  background-color: grey;
+  border: 1px solid white;
+  position: relative;
+  padding: 30px;
+}
+
+.side-bar ul {
+    list-style: none;
+
+}
+
+.side-bar ul li {
+    margin-bottom: 20px;
+}
+
+.side-bar ul li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #fff;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.side-bar ul li a:hover {
+    background-color: #000;
+}
+
+
+.content {
+  width: 80%;
+  height: 70vh;
+  background-color: #e2d9d9;
+
+}
+
+.main-content {
+  padding: 20px 20px;
+}
+
+.main-content h2 {
+    margin-bottom: 5px;
+    color: #6c6d68;
+}
+
+.main-content p {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.main-content p::first-line {
+    color: #515250;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid #e74d43;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
