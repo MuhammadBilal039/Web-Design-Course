@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* Universal Selector */
+      * {
+        background-color: #b6b3b3;
+        font-family: sans-serif;
+      }
+
+      /* Type Selector */
+      h1 {
+        text-align: center;
+        color: rgb(19, 88, 19);
+        font-size: 40px;
+      }
+
+      /* Class Selector */
+      .para-1 {
+        font-size: 18px;
+        color: #003d99;
+      }
+
+      /* Id Selector */
+      #heading-two {
+        color: brown;
+        font-size: 30px;
+      }
+
+      /* Child Selector  */
+      ul > li {
+        color: blue;
+        font-size: 18px;
+        list-style: decimal-leading-zero;
+      }
+
+      /* Decendent Selector  */
+      body h2 {
+        color: #003d99;
+        font-size: 25px;
+      }
+
+      /* General Sibling Selector  */
+      h2 ~ p {
+        color: red;
+      }
+      /* Adjecent Sibling Selector */
+      h2 + p {
+        color: #4d4747;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      p a {
+        color: green;
+        text-decoration: none;
+      }
+
+      p a:hover {
+        font-size: 19px;
+        text-decoration: underline;
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Front End Course</h1>
+    <h2 id="heading-two">Front End Include Languages</h2>
+    <p class="para-1">
+      Here are the following languages which are include in the front end
+      course.
+    </p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <h2>HTML Language</h2>
+    <p>
+      HTML stands for HyperText Markup Language and it is used for the structure
+      of the Websites.
+    </p>
+    <p>
+      Click here more about
+      <a href="https://www.w3schools.com/html/default.asp">HTML Course</a>
+    </p>
+    <h2>CSS Language</h2>
+    <p>
+      CSS stands for Cascading Style Sheets and it is used for the styling of
+      the websites.
+    </p>
+    <p>
+      Click here more about
+      <a href="https://www.w3schools.com/css/default.asp">CSS Course</a>
+    </p>
+    <h2>JavaScript Language</h2>
+    <p>
+      JavaScript is the main languages in the front end part and it is used for
+      the functionality of the websites.
+    </p>
+    <p>
+      Click here more about
+      <a href="https://www.w3schools.com/js/default.asp">JavaScript Course</a>
+    </p>
+
+    <h3>Some more learning about the Front End Designing</h3>
+    <h2>Bootstrap</h2>
+    <p>
+      Bootstrap is a free front-end framework for faster and easier web
+      development
+    </p>
+    <p>Bootstrap is the easiest way to style the websites.</p>
+    <p>
+      Click here more about
+      <a href="https://www.w3schools.com/bootstrap5/index.php"
+        >Bootstrap Course</a
+      >
+    </p>
+  </body>
+</html>

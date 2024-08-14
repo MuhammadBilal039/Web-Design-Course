@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rules of Cascading</title>
+    <style>
+      /* Specificity Rule */
+      * {
+        color: blue;
+        font-family: sans-serif;
+      }
 
+      h1 {
+        color: green;
+        font-family: serif;
+      }
+
+      .para-2 {
+        color: black;
+        font-size: 18px;
+      }
+
+      #para-3 {
+        color: blueviolet;
+        font-size: 18px;
+      }
+
+      /* Last Rule */
+      p {
+        color: red;
+      }
+
+      /* Important Rule */
+      div p {
+        color: rgb(7, 121, 121) !important;
+        font-size: 18px !important;
+      }
+
+      div p {
+        color: blue;
+        font-size: 20px;
+      }
+
+      /* Inherited Rule  */
+      h1 {
+        font-family: inherit;
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Programming</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quo aut
+      voluptates consequuntur magni at omnis quae modi eveniet, excepturi
+      accusantium ratione. Voluptatum eos iusto temporibus eaque illum at ab?
+    </p>
+    <p class="para-2">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam,
+      delectus.
+    </p>
+    <p id="para-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+      reprehenderit! Quam vel iste quaerat hic.
+    </p>
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat rerum
+        aperiam iusto doloribus. Tempora, in expedita quos unde quasi
+        accusantium odio, et, vero earum nemo dolorum! Error architecto fugiat
+        vel!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+        aperiam quia? Dolorem a ipsa quo?
+      </p>
+    </div>
+  </body>
+</html>
