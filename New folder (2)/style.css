@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  background-color: blueviolet;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+label,
+input {
+  /* border: 2px solid red; */
+  display: block;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+label {
+  /* margin-bottom: 7px; */
+  color: white;
+}
+
+input {
+  margin-top: -7px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+p,
+#checkbox {
+  display: inline;
+  /* border: 2px solid red; */
+}
+p {
+  font-size: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+#sign-up-btn {
+  background-color: rgb(251, 27, 27);
+  border: none;
+  padding: 8px 25px;
+  border-radius: 8px;
+}
+
+#sign-in-btn {
+  border: none;
+  padding: 8px 25px;
+  border-radius: 8px;
+  color: rgb(237, 29, 29);
+  /* font-weight: 800; */
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+span {
+  color: rgb(249, 43, 43);
+}
